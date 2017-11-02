@@ -9,8 +9,14 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/launcherview" />
             <option value="$PROJECT_DIR$/mvptest" />
+            <option value="$PROJECT_DIR$/mvvmtest" />
+            <option value="$PROJECT_DIR$/recyclerviewheaderfooterdemo" />
+            <option value="$PROJECT_DIR$/retrofit" />
+            <option value="$PROJECT_DIR$/retrofitdemo" />
             <option value="$PROJECT_DIR$/rxjava2" />
+            <option value="$PROJECT_DIR$/swiperefreshlayoutlibrary" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

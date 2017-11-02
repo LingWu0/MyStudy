@@ -1,1 +1,1 @@
-include ':app', ':mvptest', ':rxjava2'
+include ':app', ':mvptest', ':rxjava2', ':mvvmtest', ':recyclerviewheaderfooterdemo', ':swiperefreshlayoutlibrary', ':retrofitdemo', ':retrofit', ':launcherview'
