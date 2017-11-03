@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.frescodemo.MainActivity">
+
+<com.facebook.drawee.view.SimpleDraweeView
+    android:id="@+id/draweeView"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    app:failureImage="@mipmap/icon_failure"
+    app:failureImageScaleType="centerInside"
+    app:placeholderImage="@mipmap/icon_placeholder"
+    app:placeholderImageScaleType="fitCenter"
+    app:progressBarAutoRotateInterval="5000"
+    app:progressBarImage="@mipmap/icon_progress_bar"
+    app:progressBarImageScaleType="centerInside"
+    app:retryImage="@mipmap/icon_retry"
+    app:retryImageScaleType="centerInside"
+    app:roundedCornerRadius="30dp"
+    app:roundingBorderWidth="10dp"
+    app:roundingBorderColor="@color/colorPrimaryDark"
+    app:fadeDuration="5000"
+    app:pressedStateOverlayImage="@color/colorPrimary"
+    android:onClick="onClick" />
+</LinearLayout>
